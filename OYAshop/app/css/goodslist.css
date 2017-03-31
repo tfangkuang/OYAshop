@@ -1,0 +1,27 @@
+			
+		
+		ul, li{list-style: none;}
+		*{margin: 0;padding: 0;}
+		/*头部*/
+		.top {text-align: center;	background: #8E488E;height: 50px;display: flex;justify-content: center;color: #FFFDEF;}		
+		.top span {line-height: 56px;flex: 1;	}
+		.top span:nth-child(1){margin-left:10px;}
+		.top span:nth-child(2){flex: 8;}
+		.top a{color: #FFFDEF;text-decoration: none;}
+		#box{display: flex;}
+		.oleft{flex:1;width: 25%;text-align: center;height: 100%;}
+		.oleft li{line-height: 40px;font-size: 12px;}
+		.oright{width: 70%;background: #f2f2f2;flex: 4;}
+		.oright section{margin-bottom: 15px;}
+		.oright ul{display: flex;justify-content: center;flex-flow: wrap;margin-bottom: 10px;}
+		.oright ul li{flex: 1;text-align: center;}
+		.oright ul li img{width:100%;vertical-align: middle;}
+		.oright h3{margin: 12px;}
+		
+
+		/*底部*/
+		.footer{height:49px;position: fixed;bottom:0;left: 0;right: 0;background: #E2E9E2;}
+		.footer_list{display: flex;justify-content: center;text-align: center;padding-top: 5px;}
+		.footer_list li{flex: 1;list-style: none;}
+		.footer_list a{color: #8E488E;text-decoration: none;}
+		.footer_list .init{color:#FC217E ;}
